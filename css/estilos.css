@@ -86,3 +86,20 @@
     margin: 0 auto;
     margin-top: 25px;
   }
+
+  .precio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    list-style-type: none;
+  }
