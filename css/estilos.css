@@ -1,137 +1,132 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #37ebb5;
-  }
-  
-  #header #header-img {
-    position: absolute;
-    height: 60px;
-    margin-left: 65px;
-    margin-top: 5px;
-  }
-  
-  #navbar {
-    width: 100%;
-  }
-  
-  #navbar ul {
-    list-style-type: none;
-    overflow: hidden;
-    text-align: center;
-    background-color: black;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  }
-  
-  #navbar ul li {
-    display: inline-block;
-  }
-  
-  #navbar ul li a {
-    display: inline-block;
-    color: white;
-    padding: 25px;
-    text-decoration: none;
-  }
-  
-  main {
-    width: 100%;
-    height: 100vh;
-    padding: 80px;
-  }
-  
-  #formulario {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  form {
-    margin-top: 20px;
-  }
-  
-  input[type="email"] {
-    max-width: 275px;
-    width: 100%;
-    padding: 8px 16px;
-    border-radius: none;
-  }
-  
-  form input[type="submit"] {
-    padding: 8px 18px;
-    margin: 10px auto;
-    border-radius: none;
-    display: block;
-    color: #fff;
-    background-color: #000;
-  }
-  
-  .section {
-    display: flex;
-    justify-content: center;
-    margin: 25px;
-  }
-  
-  .section article p {
-    margin-top: 20px;
-  }
-  
-  #video {
-    display: block;
-    margin: 0 auto;
-    margin-top: 25px;
-  }
-
-  .precio{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 40px;
-  }
-
-  .producto{
-    /* padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid black;
-    list-style-type: none; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: calc(100% / 3);
-    margin: 10px;
-    border: 1px solid #000;
-    border-radius: 3px;
-  }
-
-.producto h1{
-    padding: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.producto ol{
-    list-style-type: none;
+body {
+  background-color: #37ebb5;
 }
 
-  .producto > ol > li {
-    padding: 15px 60px;
-  }
+#header #header-img {
+  position: absolute;
+  height: 60px;
+  margin-left: 65px;
+  margin-top: 5px;
+}
 
-  footer{
-    background-color: black;
-  }
+#navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+  background-color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
-  h4{
-    text-align: center;
-    margin-top:  40px;
-    padding: 10px;
-    color: white;
-  }
+#navbar ul li {
+  display: inline-block;
+}
+
+#navbar ul li a {
+  display: inline-block;
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  padding: 80px;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 8px 16px;
+  border-radius: none;
+}
+
+form input[type="submit"] {
+  padding: 8px 18px;
+  margin: 10px auto;
+  border-radius: none;
+  display: block;
+  color: #fff;
+  background-color: #000;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+#prueba1 {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#red {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#red #imagen {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.section article p {
+  margin-top: 20px;
+}
+
+#video {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.precio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.producto {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  list-style-type: none;
+}
+
+.producto h1 {
+  padding: 10px;
+}
+
+.producto ol {
+  list-style-type: none;
+}
+
+.producto > ol > li {
+  padding: 15px 60px;
+}
+
+
