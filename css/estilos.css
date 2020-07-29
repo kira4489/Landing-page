@@ -73,16 +73,17 @@ form input[type="submit"] {
   margin: 25px;
 }
 
-#red {
+.foto {
   display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 20px;
 }
 
-#red #imagen {
+.foto #imagen {
   width: 280px;
   height: 300px;
+  padding: 10px;
   margin: 0 auto;
 }
 
@@ -143,4 +144,24 @@ footer {
   color: white;
   padding: 10px;
   text-align: center;
+}
+
+@media (max-width: 500px) {
+#formulario{
+  width: 100%;
+  margin-left: 10px;
+}
+.prueba article p{
+  width: 100%;
+}
+main{
+  width: 100%;
+  padding-left: 50px;
+}
+.foto{
+  margin-left: -20px;
+}
+.producto > ol > li {
+  padding: 10px;
+}
 }
