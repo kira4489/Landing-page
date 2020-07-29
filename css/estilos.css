@@ -34,7 +34,7 @@ body {
   text-decoration: none;
 }
 
-#wrapper {
+main{
   width: 100%;
   height: auto;
   padding: 80px;
@@ -135,5 +135,6 @@ footer {
   width: 100%;
   background-color: black;
   color: white;
+  padding: 10px;
   text-align: center;
 }
