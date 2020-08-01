@@ -50,6 +50,7 @@ iframe {
   display: flex;
   flex-direction: row;
   justify-content: center;
+
 }
 
 .card {
@@ -66,4 +67,27 @@ footer {
   color: white;
   padding: 10px;
   text-align: center;
+}
+
+
+@media screen and (max-width: 800px){
+.tarjeta{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+}
+.imagen{
+  width: 50%;
+}
+}
+
+
+@media screen and (max-width: 600px){
+  iframe{
+width: 70%;
+  }
+  .imagen{
+    width: 50%;
+  }
 }
