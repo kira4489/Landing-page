@@ -1,59 +1,56 @@
-#header-img{
-    width: 70px;
-    margin-left: 50px;
-    margin-right: -300px;
+#header-img {
+  width: 70px;
+  margin-left: 50px;
+  margin-right: -300px;
 }
 
 .navbar-nav {
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0; 
-    position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  position: relative;
 }
 
-.parrafo{
-    margin-top: 80px;
-    padding: 50px;
+.parrafo {
+  margin-top: 80px;
+  padding: 50px;
 }
 
-
-.parrafo p{
-    width: 60%;
-    display: block;
-    margin: 0 auto;
+.parrafo p {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
 }
 
-.imagen{
-    width: 20%;
-    margin-top: 20px
+.imagen {
+  width: 20%;
+  margin-top: 20px;
 }
 
-iframe{
-    width: 40%;
-    margin-top: 50px;
+iframe {
+  width: 40%;
+  margin-top: 50px;
 }
 
-.tarjeta{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 5px;
+.tarjeta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.card{
-    margin-left: 50px;
-    margin-top: 50px;
-    margin-bottom: 30px;
+.card {
+  margin-left: 30px;
+  margin-top: 90px;
+  margin-bottom: 30px;
 }
 
 footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    text-align: center;
-  }
-  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
