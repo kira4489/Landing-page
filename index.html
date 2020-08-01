@@ -5,79 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/estilos.css" />
-
-    <title>landing page</title>
+    <link rel="stylesheet" href="./css/style.css" />
+<title>landing page</title>
   </head>
   <body>
-    <header id="header">
-      <div class="menu-btn">
-        <i class="fas fa-bars fa-2x"></i>
-      </div>
-      <img src="./imagenes/1.png" alt="" id="header-img" />
-     <nav id="navbar">
-    <ul>
-        <li>
-          <a class="navbar-link" href="#prueba">Inicio</a>
-        </li>
-        <li>
-          <a class="navbar-link" href="#prueba1">Acerca</a>
-        </li>
-       <li>
-          <a class="navbar-link" href="#precio">Precios</a>
-        </li>
-      </ul>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+              <img src="./imagenes/1.png" id="header-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto navbar-center">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#acerca">Acerca</a></li>
+                <li class="nav-item"><a class="nav-link" href="#nosotros">Precios</a></li>
+              </ul>
+            </div>
+          </nav>
     </header>
-    <div class="row">
-      <div class="col-12">
-    <main id="prueba">
-      <section class="section" id="formulario">
-        <h1>Rock music</h1>
-        <form action="url">
-          <input
-            name="email"
-            id="email"
-            type="email"
-            placeholder="ingrese su correo electronico"
-            required
-          />
-          <input id="submit" type="submit" value="enviar" />
-        </form>
-      </section>
-      <section>
-        <div class="row">
-          <div class="col-12">
-     <div class="foto" id="red">
-     <img src="./imagenes/2.jpg" alt="rock" id="imagen" />
-     <img src="./imagenes/3.jpg" alt="rock" id="imagen" />
-     <img src="./imagenes/4.jpg" alt="rock" id="imagen" />
-      </section>
-      </div>
-      <div>
-  
-</div>
-<div class="row">
-  <div class="col-12 text-lg-center">
-<section class="prueba">
-       <article class="col-6 text-center">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque,
-          asperiores eos dolores nostrum aperiam esse provident id voluptas.
-          Provident ullam illum, aliquid quidem pariatur natus beatae accusamus
-          deserunt sunt facere! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Dolore natus architecto facilis, ad fugiat ipsum.
-          Iusto, fugiat quam obcaecati qui, repellat maxime, nemo provident
-          delectus excepturi cupiditate quisquam sequi nostrum? Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. Assumenda in facilis
-          animi nostrum ad corporis reprehenderit itaque officia accusamus
-          eligendi, nulla fuga amet aperiam natus enim voluptatibus sed iste
-          accusantium.
-        </p>
-       </article>
-      </section>
-      <div class="col-6 text-center">
-      <section class="section" id="prueba1">
+    <section class="row">
+      <article class="col-12 text-center parrafo" id="inicio">
+        <h1>Rock</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nobis, unde quidem eligendi a laudantium, atque exercitationem ex, saepe maxime reiciendis itaque? Quia, natus consectetur ad iure aliquid optio unde?</p>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic possimus blanditiis placeat, neque at provident optio sit reprehenderit voluptatum, similique quasi facilis modi, suscipit corporis esse eaque sint distinctio ipsa.</p>
+        <img src="./imagenes/4.jpg" class="imagen" alt="rock1">
+        <img src="./imagenes/3.jpg" class="imagen" alt="rock2">
+        <img src="./imagenes/2.jpg" class="imagen" alt="rock3">
+      </article>
+    </section>
+
+<section class="row">
+      <article class="col-12 text-center" id="acerca">
         <iframe
           width="560"
           height="315"
@@ -86,57 +48,46 @@
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
+       </article>
       </section>
+      <div class="row">
+ <div class="col-12 tarjeta" id="nosotros">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
       </div>
-    </div>
-    </div>
-      <section class="prueba">
-        <article>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque,
-          asperiores eos dolores nostrum aperiam esse provident id voluptas.
-          Provident ullam illum, aliquid quidem pariatur natus beatae accusamus
-          deserunt sunt facere! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Dolore natus architecto facilis, ad fugiat ipsum.
-          Iusto, fugiat quam obcaecati qui, repellat maxime, nemo provident
-          delectus excepturi cupiditate quisquam sequi nostrum? Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. Assumenda in facilis
-          animi nostrum ad corporis reprehenderit itaque officia accusamus
-          eligendi, nulla fuga amet aperiam natus enim voluptatibus sed iste
-          accusantium.
-        </p>
-      </article>
-      </section>
-      <section class="precio">
-        <div class="producto" id="precio">
-          <h1>Precios</h1>
-          <ol>
-            <li>5000</li>
-            <li>4000</li>
-            <li>7000</li>
-          </ol>
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-        <div class="producto">
-          <h1>black friday</h1>
-          <ol>
-            <li>eventos</li>
-            <li>rock parque</li>
-            <li>zona mixta</li>
-          </ol>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-        <div class="producto">
-          <h1>black normal</h1>
-          <ol>
-            <li>precio vip</li>
-            <li>precio normal</li>
-            <li>tribuna</li>
-          </ol>
-        </div>
-      </section>
-    </main>
-   <footer>
-     <p>Copyright 2020 | Colombia,Medellin</p>
-     </footer>
+      </div>
+      </div>
+      </div>
+     
+
+
+
+
+      
+      <footer class="col">
+        <p>Copyright 2020 | Colombia,Medellin</p>
+        </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
