@@ -75,7 +75,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: space-evenly;
+    align-content: space-around;
   }
   .imagen {
     width: 50%;
