@@ -58,6 +58,15 @@ iframe {
   margin-bottom: 30px;
 }
 
+.card-title{
+  text-align: center;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   left: 0;
   bottom: 0;
